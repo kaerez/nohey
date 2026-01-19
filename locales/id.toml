@@ -1,0 +1,60 @@
+# ID translations for nohey.org
+
+header.subtitle = "tolong jangan hanya menyapa dalam obrolan"
+header.introduction = "Bayangkan menelepon seseorang di telepon, bilang _halo!_ lalu membuat mereka menunggu... 🤦‍♀️"
+example.character.neutral.name = "Tim"
+example.character.neutral.avatar-description = "Tim's Slack avatar"
+example.character.bad.name = "Keith"
+example.character.bad.avatar-description = "Keith's Slack avatar"
+example.character.good.name = "Dawn"
+example.character.good.avatar-description = "Dawn's Slack avatar"
+example.bad.title = "❌ Jangan lakukan ini"
+example.bad.body = """Perhatikan bahwa Keith bisa mendapatkan jawabannya beberapa menit lebih cepat, dan tidak perlu membuat Tim menunggu. Sebenarnya, Tim bisa saja langsung memikirkan pertanyaan itu!
+
+Orang yang melakukan ini biasanya mencoba bersikap sopan dengan tidak langsung menjawab permintaan, seperti yang dilakukan secara langsung atau melalui telepon - dan itu bagus! Tapi itu %1$s dan obrolan bukan keduanya. Bagi kebanyakan orang, mengetik jauh lebih lambat daripada berbicara. Jadi terlepas dari niat terbaik, **Anda sebenarnya hanya membuat orang lain menunggu** Anda untuk mengutarakan pertanyaan Anda, yang kehilangan produktivitas (dan agak mengganggu).
+
+Hal yang sama berlaku untuk:
+
+- "Halo, apakah Anda ada di sekitar?"
+- "hai sophie - pertanyaan singkat."
+- "Anda punya waktu sebentar?"
+- "yt?"
+- "ping"
+- dll.
+
+**Ajukan saja pertanyaannya!**
+"""
+example.bad.message1.timestamp = "2:15 PM"
+example.bad.message1.body = "hai"
+example.bad.reply1.timestamp = "2:19 PM"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "2:20 PM"
+example.bad.message2.body = "jam berapa yang itu tuh?"
+example.bad.reply2.timestamp = "2:20 PM"
+example.bad.reply2.body = "oh - 3:30 teman"
+example.good.title = "✅ Alih-alih coba ini"
+example.good.body = """Jika Anda merasa agak kasar untuk sekedar mengatakan "Hai" dan mengajukan pertanyaan, **Anda masih dapat mengawali pesan Anda dengan basa-basi sebanyak yang Anda inginkan.**
+
+Sebagai contoh:
+
+- "hey man, ada apa? dan, ada yang tahu kapan waktunya?"
+- "Hai! Semoga kamu baik-baik saja. Saya mencari info terbaru, kalau kamu punya waktu sebentar :)"
+- "hei, jika kamu tidak sibuk, bisakah kamu memperbarui NFR itu?"
+- dll.
+
+Ini mungkin tampak sepele, tetapi mengajukan pertanyaan sebelum mendapatkan balasan salam awal juga memungkinkan **komunikasi asinkron**. Jika pihak lain sedang pergi, dan Anda pergi sebelum mereka kembali, mereka masih dapat menjawab pertanyaan Anda, alih-alih hanya menatap "Halo" dan bertanya-tanya apa yang mereka lewatkan.
+
+Ketika dilakukan dengan benar - semua orang senang! 🎉.
+"""
+example.good.message1.timestamp = "2:15 PM"
+example.good.message1.body = "Hai! Jam berapa itu tuh?"
+example.good.reply1.timestamp = "2:15 PM"
+example.good.reply1.body = "hai, 3:30"
+example.good.message2.timestamp = "2:15 PM"
+example.good.message2.body = "Terimakasih - sampai nanti kalo begitu!"
+example.good.reply2.timestamp = "2:16 PM"
+example.good.reply2.body = "👌 Sama-sama"
+footer.note = "Ini hanya setengah serius (agak 👀) jadi tolong jangan [marah](https://www.youtube.com/watch?v=xzpndHtdl9A) pada orang yang mengirimkan Anda ke sini."
+footer.warning = "Jadi, jika Anda melihat URL situs ini sebagai status/bio seseorang, bersiaplah untuk diabaikan jika Anda hanya mengatakan "Halo!""
+footer.thanks = "Berdasarkan [nohello.net](https://nohello.net/en/) yang luar biasa. Avatar diambil dari *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Sumber terbuka di [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Situs ini tersedia dalam:"

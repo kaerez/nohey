@@ -1,0 +1,60 @@
+# ZH-CN translations for nohey.org
+
+header.subtitle = "不要在聊天时问：“在吗？”"
+header.introduction = "想象一下别人接通你的电话时，你问 ：__“在吗？”__，然后等待对方回应…🤦‍♀️"
+example.character.neutral.name = "蒂姆"
+example.character.neutral.avatar-description = "蒂姆的 QQ 头像"
+example.character.bad.name = "基思"
+example.character.bad.avatar-description = "基思的 QQ 头像"
+example.character.good.name = "道恩"
+example.character.good.avatar-description = "道恩的 QQ 头像"
+example.bad.title = "❌ 不要这样做"
+example.bad.body = """请注意，这个场景中基思本可以提前几分钟得到答案，也不必让蒂姆等待，而蒂姆本来可以立刻开始思考这个问题。
+
+人们这样做通常是出于礼貌，避免像面对面或者打电话时候那样唐突地直接提出请求。但现在已经是 %1$s年了，聊天方式也和以前完全不同。对于绝大多数人来说，打字比说话慢得多。所以尽管你的初衷是好的，**而实际上你只是在让对方等待** 你说出自己问题，这是非常没有效率的（某种意义上有些烦人）。
+
+类似的场景有：
+
+- “你好，在吗？”
+- “在，有事直接问。”
+- “你有时间吗？”
+- “有”
+- “忙吗？”
+- 等等
+
+**请直接问问题！** 😫
+"""
+example.bad.message1.timestamp = "2:15 下午"
+example.bad.message1.body = "在？"
+example.bad.reply1.timestamp = "2:19 下午"
+example.bad.reply1.body = "…？"
+example.bad.message2.timestamp = "2:20 下午"
+example.bad.message2.body = "那个事在什么时候来的？"
+example.bad.reply2.timestamp = "2:20 下午"
+example.bad.reply2.body = "哦，在 3 点 30 分。"
+example.good.title = "✅ 试着这样做"
+example.good.body = """如果你觉得很直接地说 “嗨” 并问一个问题有些唐突，可以适当地在你的消息前面加上一些寒暄。
+
+例如：
+
+- “嗨老铁，你咋样了？还有你知道那个事儿什么时候截止吗？”
+- “还可以，咱们可以抽空聊聊。: )”
+- “行，如果你不忙，能帮忙更新一下 NFR 吗？”
+- 等等
+
+这也许看起来很繁琐，但在你得到开头的寒暄的回复之前问你关心的问题，也能够做到 **延时沟通**。如果对方不在，而你在他们回来之前就离开了，他们仍然可以回答你的问题，而不只是盯着“在吗？”感到不知所措。
+
+当你做到了这些，大家都会开心！🎉
+"""
+example.good.message1.timestamp = "2:15 下午"
+example.good.message1.body = "您好，我想问一下那件事在什么时候来的？"
+example.good.reply1.timestamp = "2:15 下午"
+example.good.reply1.body = "您好，在 3 点 30 分。"
+example.good.message2.timestamp = "2:15 下午"
+example.good.message2.body = "回见！"
+example.good.reply2.timestamp = "2:16 下午"
+example.good.reply2.body = "👌 没问题"
+footer.note = "这不是非常严重的事情（一定程度上👀），所以请不要对送你来看这个网站的人[生气](https://www.youtube.com/watch?v=xzpndHtdl9A)。"
+footer.warning = "也就是说，如果你看到某个人的状态 / 简介里包含这个网站的地址，那么你如果仅仅对他说：“在吗” 或者 “你好”，就请做好被无视的心理准备。"
+footer.thanks = "本站点基于 [nohello.net](https://nohello.net/en/) 制作。头像取自 *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*。 于 [GitHub](https://github.com/kaerez/nohey). 开源。"
+footer.languages = "本网站支持下列语言："

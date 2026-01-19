@@ -1,0 +1,60 @@
+# FR translations for nohey.org
+
+header.subtitle = "s'il vous plaît, ne dites pas juste bonjour dans le chat"
+header.introduction = "Imaginez que vous appelez quelqu'un au téléphone, que vous lui dites "Bonjour !" et que vous le mettez en attente... 🤦‍♀️"
+example.character.neutral.name = "Tim"
+example.character.neutral.avatar-description = "L'avatar de Tim sur Slack"
+example.character.bad.name = "Keith"
+example.character.bad.avatar-description = "L'avatar de Keith sur Slack"
+example.character.good.name = "Dawn"
+example.character.good.avatar-description = "L'avatar de Dawn sur Slack"
+example.bad.title = "❌ Ne fais pas ça"
+example.bad.body = """Notez que Keith aurait pu obtenir sa réponse quelques minutes plus tôt, et n'aurait pas eu besoin de faire attendre Tim. En fait, Tim aurait pu commencer à réfléchir à la question tout de suite !
+
+Les personnes qui font cela essaient généralement d'être polies en ne se lançant pas directement dans la demande, comme on le ferait en personne ou au téléphone - et c'est très bien ! Mais nous sommes en %1$s et le chat n'est ni l'un ni l'autre. Pour la plupart des gens, taper est beaucoup plus lent que parler. Ainsi, malgré vos meilleures intentions, **vous faites attendre votre interlocuteur** pour que vous puissiez formuler votre question, ce qui est une perte de productivité (et un peu ennuyeux).
+
+Il en va de même pour :
+
+- "Bonjour, tu es dans le coin ?"
+- "Salut Sophie - Petite question."
+- "Tu as une seconde ?"
+- "yt ?"
+- "ping"
+- etc.
+
+**Just ask the question!** 😫
+"""
+example.bad.message1.timestamp = "2:15 PM"
+example.bad.message1.body = "salut"
+example.bad.reply1.timestamp = "2:19 PM"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "2:20 PM"
+example.bad.message2.body = "a quelle huere était ce truc déjà ?"
+example.bad.reply2.timestamp = "2:20 PM"
+example.bad.reply2.body = "oh - 3:30 mon pote"
+example.good.title = "✅ Essayez plutôt ceci"
+example.good.body = """Si vous estimez qu'il est un peu brusque de dire simplement "Bonjour" et de poser la question, **vous pouvez toujours faire précéder votre message d'autant de civilités que vous le jugez nécessaire**.
+
+Par exemple :
+
+- "Salut mec, quoi de neuf ? Et aussi, une idée de la date de remise de ce truc ?"
+- "Salut ! J'espère que tu vas bien. Je cherche le dernier jeu, quand tu auras une seconde :)"
+- "Hé, si tu n'es pas occupé, tu peux mettre à jour ces NFRs ?"
+- etc.
+
+Cela peut sembler trivial, mais le fait de poser votre question avant d'obtenir cette réponse initiale de salutations permet également une communication **asynchrone**. Si l'autre partie est absente et que vous partez avant qu'elle ne revienne, elle peut toujours répondre à votre question, au lieu de se contenter de regarder un "Bonjour" en se demandant ce qu'elle a manqué.
+
+Quand c'est bien fait, tout le monde est content ! 🎉
+"""
+example.good.message1.timestamp = "2:15 PM"
+example.good.message1.body = "Hiya ! A quelle heure était ce truc ?"
+example.good.reply1.timestamp = "2:15 PM"
+example.good.reply1.body = "hey, 3:30"
+example.good.message2.timestamp = "2:15 PM"
+example.good.message2.body = "Merci - seeya alors !"
+example.good.reply2.timestamp = "2:16 PM"
+example.good.reply2.body = "👌 np"
+footer.note = "Ceci n'est qu'à moitié sérieux (un peu 👀) alors s'il vous plaît, ne vous fâchez pas (https://www.youtube.com/watch?v=xzpndHtdl9A) contre la personne qui vous a envoyé ici."
+footer.warning = "Cela dit, si vous voyez l'URL de ce site dans le statut/bio de quelqu'un, préparez-vous à être ignoré si vous dites seulement "Bonjour !"."
+footer.thanks = "Basé sur le merveilleux site [nohello.net](https://nohello.net/en/). Avatars tirés de *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Source ouverte sur [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Ce site est disponible en :"

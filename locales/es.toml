@@ -1,0 +1,60 @@
+# ES translations for nohey.org
+
+header.subtitle = "Por favor no digas sólo hola en el chat"
+header.introduction = "Imagina que alguien te llama por teléfono, dice _"¡Hola!"_, y luego te deja en espera... 🤦‍♀️"
+example.character.neutral.name = "Tomás"
+example.character.neutral.avatar-description = "Avatar de Slack de Tomás"
+example.character.bad.name = "Bosco"
+example.character.bad.avatar-description = "Avatar de Slack de Bosco"
+example.character.good.name = "Alba"
+example.character.good.avatar-description = "Avatar de Slack de Alba"
+example.bad.title = "❌ No hagas esto"
+example.bad.body = """Nótese que Bosco hubiera podido recibir su respuesta minutos antes, y no necesitaba haber dejado esperando a Tomás. De hecho, ¡Tomás podría haber empezado a pensar en la pregunta de inmediato!
+
+La gente que hace esto por lo general intenta ser cortés, al no saltar directamente al pedido, como uno haría en persona o por teléfono. Pero es %1$s y el chat no es ninguna de esas cosas. Para la mayoría de la gente, tipear es mucho más lento que hablar. Así que, pese a las buenas intenciones, **sólo estás haciendo esperar a la otra persona** hasta que termines de expresar la pregunta, lo que resulta en productividad perdida (y es un poco molesto).
+
+Lo mismo vale para:
+
+- "Hola, ¿andas por ahí?"
+- "Hola Sofía, pregunta rápida."
+- "¿Tienes un segundo?"
+- "¿Estás?"
+- "Ping"
+- Etc.
+
+**¡Haz la pregunta de una vez!** 😫
+"""
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "Hola"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "¿...?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "¿A qué hora era aquello?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "Ah, a las 15:30, amigo."
+example.good.title = "✅ Mejor intenta esto"
+example.good.body = """Si te parece un poco descortés simplemente decir "Hola" y hacer la pregunta, **siempre puedes preceder tu mensaje de tantas cortesías como te parezca bien.**
+
+Por ejemplo:
+
+- "Hola, ¿cómo estás? A propósito, ¿tienes idea de cuándo hay que entregar aquello?"
+- "¡Hola! Espero que estés bien. Estoy buscando la última presentación, cuando tengas un segundo :)"
+- "hola, si no estás ocupado, ¿podrías actualizar esos NFRs?"
+- etc.
+
+Puede parecer trivial, pero hacer la pregunta antes de que te respondan el saludo también permite la **comunicación asincrónica**. Si tu contraparte está ausente, y te vas antes de que regrese, igualmente puede responder tu pregunta, en lugar de quedarse mirando un "Hola" y preguntarse qué se perdió.
+
+Cuando se hace bien... ¡todo el mundo queda contento! 🎉
+"""
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "¡Hola! ¿A qué hora era aquello?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "Hola, a las 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "¡Gracias, nos vemos!"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌 np"
+footer.note = "Esto es sólo en serio a medias (bueno, más o menos 👀), así que [no te enojes](https://www.youtube.com/shorts/gEwzOH5Rg1c) con la persona que te mandó aquí."
+footer.warning = "Dicho esto, si ves el URL de este sitio en el estado o la biografía de alguien, prepárate a que te ignore si sólo dices "¡Hola!"."
+footer.thanks = "Basado en el maravilloso [nohello.com](https://www.nohello.com/). Avatares tomados de  *[The Office](https://es.wikipedia.org/wiki/The_Office_(serie_británica))*. Open-source en [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Este sitio está disponible en:"

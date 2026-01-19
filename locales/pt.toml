@@ -1,0 +1,60 @@
+# PT translations for nohey.org
+
+header.subtitle = "não digas apenas olá no chat"
+header.introduction = "Imagina ligar a alguém, dizer _olá!_ e depois pôr a outra pessoa em espera... 🤦‍♀️"
+example.character.neutral.name = "Tiago"
+example.character.neutral.avatar-description = "Avatar do Tiago no Slack"
+example.character.bad.name = "Carlos"
+example.character.bad.avatar-description = "Avatar do Carlos no Slack"
+example.character.good.name = "Diana"
+example.character.good.avatar-description = "Avatar da Diana no Slack"
+example.bad.title = "❌ Não faças isto"
+example.bad.body = """Repara que o Carlos podia ter tido a sua resposta minutos antes, e sem ter de fazer o Tiago esperar. O Tiago podia ter começado logo a pensar na resposta.
+
+As pessoas que fazem isto normalmente tentam ser educadas e não ir diretamente à questão, como fariam se estivessem ao telefone - e isso é bom! Só que estamos em %1$s e conversar por mensagens não funciona da mesma maneira. Para a maioria das pessoas, escrever tira mais tempo do que falar. Por isso, apesar das melhores intenções, **estás apenas a fazer a outra pessoa esperar** até fazeres a pergunta propriamente dita, o que é uma perda de tempo e reduz a produtividade (e é irritante, vá).
+
+O mesmo é válido para:
+
+- "Olá, estás por aí?"
+- "Olá Sofia, uma pergunta rápida."
+- "Tens um minuto?"
+- "Hey?"
+- "Oi?"
+- etc.
+
+**Faz logo a pergunta!** 😫
+"""
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "olá"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "a que horas era aqulea reunião?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "às 15:30, meu"
+example.good.title = "✅ Em vez disso, tenta"
+example.good.body = """Se sentes que é demasiado brusco dizer apenas "Olá" e fazeres logo a pergunta, **podes começar a mensagem com as cortesias que achares melhor.**
+
+Por exemplo:
+
+- "Olá meu, tudo bem? tens ideia de quando temos de entregar aquela projeto?"
+- "Olá! Espero que estejas bem. Quando tiveres um bocadinho, precisava que me enviasses aquele ficheiro :)"
+- "Oi, se não estiveres muito ocupado, podes atualizar aqueles relatórios?"
+- etc.
+
+Isto pode parecer básico, mas fazer a pergunta antes dos cumprimentos iniciais também permite uma **comunicação assíncrona**. Se a outra pessoa estiver ausente, e tu saíres antes dela voltar, ela vai conseguir responder à tua pergunta, em vez de ter simplesmente um "Olá" e ficar a pensar em qual seria o assunto.
+
+Quando enviamos mensagens da maneira certa, todos ficamos mais felizes! 🎉
+"""
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "Oi! A que horas é aquela reunião?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "olá, 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "thanks, até já"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌"
+footer.note = "Isto não é 100% a sério (mais ou menos 👀) mas não fiques [chateado](https://www.youtube.com/watch?v=xzpndHtdl9A) com quem te enviou isto."
+footer.warning = "Dito isto, se viste o link deste site no status ou na bio de alguém, prepara-te para ser ignorado(a) se apenas enviares uma mensagem a dizer "Olá!""
+footer.thanks = "Baseado no incrível [nohello.net](https://nohello.net/en/). Avatars retirados da série *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Código aberto no [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Este site está disponível nos idiomas:"

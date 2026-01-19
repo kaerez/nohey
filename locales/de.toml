@@ -1,0 +1,60 @@
+# DE translations for nohey.org
+
+header.subtitle = "bitte sagen Sie nicht nur "Hey" im Chat"
+header.introduction = "Stell dir vor, du rufst jemanden an, sagst "Hallo!" und lässt ihn in der Warteschleife hängen... 🤦‍♀️"
+example.character.neutral.name = "Tim"
+example.character.neutral.avatar-description = "Tim's Slack-Avatar"
+example.character.bad.name = "Keith"
+example.character.bad.avatar-description = "Keith's Slack-Avatar"
+example.character.good.name = "Dawn"
+example.character.good.avatar-description = "Dawn's Slack-Avatar"
+example.bad.title = "❌ Tun Sie das nicht"
+example.bad.body = """Beachten Sie, dass Keith seine Antwort schon Minuten früher hätte bekommen können und Tim nicht hätte warten lassen müssen. Tim hätte sogar sofort anfangen können, über die Frage nachzudenken!
+
+Die Leute, die das tun, versuchen in der Regel, höflich zu sein, indem sie sich nicht gleich auf die Anfrage stürzen, wie man es persönlich oder am Telefon tun würde - und das ist toll! Aber wir schreiben das Jahr %1$s, und ein Chat ist keines von beidem. Für die meisten Menschen ist das Tippen viel langsamer als das Sprechen. Trotz bester Absichten **lassen Sie die andere Person einfach warten**, bis Sie Ihre Frage formuliert haben, und das ist verlorene Produktivität (und irgendwie ärgerlich).
+
+Das Gleiche gilt für:
+
+- "Hallo, sind Sie da?"
+- "Hallo Sophie - kurze Frage."
+- "Hast du einen Moment Zeit?"
+- "yt?"
+- "ping"
+- usw.
+
+**Stellt einfach die Frage!** 😫
+"""
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "hi"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "um wie viel uhr war das nohc mal?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "oh - 15:30 kumpel"
+example.good.title = "✅ Versuchen Sie stattdessen Folgendes"
+example.good.body = """Wenn Sie es für etwas schroff halten, einfach nur "Hallo" zu sagen und die Frage zu stellen, **können Sie Ihrer Nachricht immer noch so viele Höflichkeiten voranstellen, wie Sie für angemessen halten**.
+
+Zum Beispiel:
+
+- "Hey Mann, was gibt's? Weißt du schon, wann das Ding fällig ist?"
+- "Hallöchen! Ich hoffe, es geht dir gut. Ich bin auf der Suche nach dem neuesten Deck, wenn du eine Sekunde Zeit hast :)"
+- "Hey, wenn du nicht beschäftigt bist, könntest du diese NFRs aktualisieren?"
+- usw.
+
+Es mag trivial erscheinen, aber Ihre Frage zu stellen, bevor Sie die erste Begrüßungsantwort erhalten, ermöglicht auch eine **asynchrone Kommunikation**. Wenn die andere Partei weg ist und Sie gehen, bevor sie zurückkommt, kann sie immer noch Ihre Frage beantworten, anstatt nur auf ein "Hallo" zu starren und sich zu fragen, was sie verpasst hat.
+
+Wenn es richtig gemacht wird, sind alle zufrieden! 🎉
+"""
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "Hallo! Um wie viel Uhr war das?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "hey, 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "Danke - bis dann!"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌 np"
+footer.note = "Das ist irgendwie nur halb ernst (irgendwie 👀), also werde bitte nicht [sauer](https://www.youtube.com/watch?v=xzpndHtdl9A) auf die Person, die dich hierher geschickt hat."
+footer.warning = "Das heißt, wenn Sie die URL dieser Website als Status/Bio von jemandem sehen, müssen Sie damit rechnen, ignoriert zu werden, wenn Sie nur "Hallo!" sagen."
+footer.thanks = "Basierend auf dem wunderbaren [nohello.net](https://nohello.net/en/). Avatare entnommen aus *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-Source auf [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Diese Seite ist verfügbar in:"

@@ -1,0 +1,59 @@
+# IT translations for nohey.org
+
+header.subtitle = "Per favore, non dire soltanto ciao in chat"
+header.introduction = "Immagina di chiamare qualcuno al telefono, dirgli _ciao!_ e lasciarli in attesa...🤦‍♀️"
+example.character.neutral.name = "Tim"
+example.character.neutral.avatar-description = "L'avatar su Slack di Tim"
+example.character.bad.name = "Keith"
+example.character.bad.avatar-description = "L'avatar su Slack di Keith"
+example.character.good.name = "Dawn"
+example.character.good.avatar-description = "L'avatar su Slack di Dawn"
+example.bad.title = "❌ Non farlo"
+example.bad.body = """Nota che Keith avrebbe potuto rispondere diversi minuti prima, e non aveva bisogno di lasciare Tim in attesa. Di fatto, Tim avrebbe potuto cominciare a pensare alla domanda fin da subito!
+
+Le persone che agiscono così tendenzialmente cercano di essere gentili evitando di passare direttamente alla richiesta, come si fa di persona o al telefono - e questo va bene! Ma siamo nel %1$s e la chat non è ne l'uno né l'altro. La maggior parte della gente scrive molto più lentamente di come parla. Per cui nonostante le migliori intenzioni, **stai fondamentalmente lasciando l'altra persona in attesa** della tua domanda, il che è tempo perso (e un po' fastidioso).
+
+Lo stesso si può dire per:
+- "Ciao, ci sei?"
+- "ciao sophie - domanda al volo."
+- "Hai un secondo?"
+- "yt?"
+- "ping"
+- etc.
+
+**Fai la domanda!** 😫
+"""
+example.bad.message1.timestamp = "2:15 PM"
+example.bad.message1.body = "ciao"
+example.bad.reply1.timestamp = "2:19 PM"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "2:20 PM"
+example.bad.message2.body = "a che ora era quella cosa?"
+example.bad.reply2.timestamp = "2:20 PM"
+example.bad.reply2.body = "oh - 3:30"
+example.good.title = "✅ Prova così invece"
+example.good.body = """Se pensi di essere maleducato nel dire semplicemente "Ciao" e fare la domanda, **puoi cominciare il tuo messaggio come tutti i convenevoli che vuoi.**
+
+Per esempio:
+
+- "ehi, come va? hai idea della scadenza per quella cosa?"
+- "Ciao! Spero che vada tutto bene. Ho una domanda, quando hai un secondo :)"
+- "ehi, se non sei occupato, potresti aggiornare gli NFR?"
+- etc.
+
+Può sembrare banale, ma fare la domanda prima della risposta ai convenevoli agevola la **comunicazione asincrona**. Se l'altro interlocutore non è raggiungibile, e tu non sei disponibile quando ritorna, può comunque rispondere alla tua domanda, invece di trovarsi davanti ad un "Ciao" e chiedersi che cosa si è perso.
+
+Quando è fatta bene - tutti sono contenti! 🎉
+"""
+example.good.message1.timestamp = "2:15 PM"
+example.good.message1.body = "Ciao! A che ora era quella cosa?"
+example.good.reply1.timestamp = "2:15 PM"
+example.good.reply1.body = "ehi, 3:30"
+example.good.message2.timestamp = "2:15 PM"
+example.good.message2.body = "Grazie - a presto allora!"
+example.good.reply2.timestamp = "2:16 PM"
+example.good.reply2.body = "👌 np"
+footer.note = "Tutto questo è serio solo a metà (più o meno 👀) quindi, per favore, non [prendertela](https://www.youtube.com/watch?v=xzpndHtdl9A) con la persona che ti ha mandato qui."
+footer.warning = "Detto questo, se vedi l'URL di questo sito nello stato o nella bio di qualcuno, preparati ad essere ignorato se dici solamente "Ciao!""
+footer.thanks = "Basato sul meraviglioso [nohello.net](https://nohello.net/en/). Gli avatar sono presi da  *[The Office](https://it.wikipedia.org/wiki/The_Office_(serie_televisiva_2001))*. Il codice è disponibile su [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Questo sito è disponibile in:"

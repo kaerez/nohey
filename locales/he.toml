@@ -60,5 +60,5 @@ example.good.reply2.body = "👌 סגור"
 
 footer.note = "זה חצי בצחוק (סוג של 👀) אז אין מה [להתעצבן](https://www.youtube.com/watch?v=xzpndHtdl9A) על מי ששלח או שלחה אותך לכאן."
 footer.warning = "עם זאת, אם ראית את את הכתובת של האתר הזה בסטטוס/ביו של מישהו, כנראה שיתעלמו מפנייה גנרית מצדך כמו „היי!""
-footer.thanks = "מבוסס על [nohello.net](https://nohello.net/en/) הנפלא. התמונות נלקחו מהסדרה *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. קוד פתוח ב־[GitHub](https://github.com/kaerez/nohey.org)."
+footer.thanks = "מבוסס על [nohello.net](https://nohello.net/en/) הנפלא. התמונות נלקחו מהסדרה *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. קוד פתוח ב־[GitHub](https://github.com/kaerez/nohey)."
 footer.languages = "האתר הזה זמין בשפות:"

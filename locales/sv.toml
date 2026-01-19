@@ -1,0 +1,60 @@
+# SV translations for nohey.org
+
+header.subtitle = "snälla skriv inte bara hej"
+header.introduction = "Tänk om du skulle ringa upp någon, säga _hej!_, och sen lägga på... 🤦‍♀️"
+example.character.neutral.name = "Lars"
+example.character.neutral.avatar-description = "Lars Slack profilbild"
+example.character.bad.name = "Göran"
+example.character.bad.avatar-description = "Görans Slack profilbild"
+example.character.good.name = "Janette"
+example.character.good.avatar-description = "Janettes Slack profilbild"
+example.bad.title = "❌ Gör inte detta"
+example.bad.body = """Notera att Göran kunde ha fått sitt svar flera minuter tidigare och sluppit låta Lars vänta. Lars kunde ha börjat fundera på frågan direkt!
+
+Personer som gör detta försöker ofta vara trevliga genom att inte gå direkt in på frågan, precis som du skulle göra öga mot öga eller på telefon - och det är fantastiskt! Men det är %1$s och chatt är inget av dom. För det flesta är chattande mycket långsammare än att prata. Så trots ditt goda syfte så **slösar du bara den andra personens tid** medans du formulerar frågan, vilket är förlorad produktivitet (och ganska störigt).
+
+Det samma gäller för:
+
+- "Halloj, är du tillgänglig?"
+- "hej Alice - en snabb fråga."
+- "Har du en sekund över?"
+- "en fråga bara?"
+- "online?"
+- osv.
+
+**Bara ställ din fråga!** 😫
+"""
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "hi"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "vilken tid va den där grejen imorrn?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "aha - 15:30"
+example.good.title = "✅ Prova detta istället"
+example.good.body = """Om du känner att det är lite otrevligt att plötsligt skriva "Hej" och sen fråga din fråga, men **du kan fortfarande klämma in hur mycket trevlighetsfraser du vill.**
+
+Till exempel:
+
+- "tjenare mannen, hur mås det? juste, vet du när den där grejen skulle vara klar?"
+- "Tjenixen! Hoppas du mår bra. Är lite efter i uppgiften, säg till när du har tid :)"
+- "hej, om du inte är upptagen så skulle det va super om du kunde uppdatera din NFR?"
+- osv.
+
+Det kanske låter skumt, men att fråga din fråga redan innan du fått ditt första svar gör det möjligt att få snabbare svar. Om den andra personen är borta, och du drar inna hen är tillbaks, så kan de fortfarande svara på din fråga, istället för att glo på ett "Hej" och undra vad de missade.
+
+Görs det på rätt sätt så blir alla glada! 🎉
+"""
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "God eftermiddag! Vilken tid var den där grejen imorgon?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "Hej, 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "Tackar - ses!"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌 nemas"
+footer.note = "Detta är bara halft seriöst (kanske 👀) så snälla bli inte [arg](https://youtu.be/bkGJ7BvAVDs?t=11) på personen som skicka hit dig."
+footer.warning = "Med det sagt, om du ser denna läk i någons status/bio, va beredd på att bli ignorerad när du skriver "Hej!""
+footer.thanks = "Baserad på den fantastiska [nohello.net](https://nohello.net/en/). Profilbilder tagna från *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Öppen källkod på [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Denna hemsida finns tillgänglig på:"

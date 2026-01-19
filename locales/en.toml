@@ -60,5 +60,5 @@ example.good.reply2.body = "👌 np"
 
 footer.note = "This is kinda only half serious (kinda 👀) so please don't get [mad](https://www.youtube.com/watch?v=xzpndHtdl9A) at the person who sent you here."
 footer.warning = "That said, if you see this site's URL as someone's status/bio, be prepared to be ignored if you only say \"Hey!\""
-footer.thanks = "Based on the wonderful [nohello.net](https://nohello.net/en/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/kaerez/nohey.org)."
+footer.thanks = "Based on the wonderful [nohello.net](https://nohello.net/en/). Avatars taken from *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/kaerez/nohey)."
 footer.languages = "This site is available in:"

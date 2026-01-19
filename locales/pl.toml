@@ -1,0 +1,60 @@
+# PL translations for nohey.org
+
+header.subtitle = "proszę… nie mów tylko cześć na czacie"
+header.introduction = "Wyobraź sobie, że dzwonisz do kogoś tylko po to, aby powiedzieć _cześć!_, a potem zawiesić połączenie… 🤦‍♀️"
+example.character.neutral.name = "Tomasz"
+example.character.neutral.avatar-description = "Awatar Tomasza"
+example.character.bad.name = "Krzysiek"
+example.character.bad.avatar-description = "Awatar Krzyśka"
+example.character.good.name = "Monika"
+example.character.good.avatar-description = "Awatar Moniki"
+example.bad.title = "❌ Nie rób tego"
+example.bad.body = """Zauważ, że Krzysiek mógł przygotować swoje pytanie o wiele wcześniej i Tomasz nie musiałby czekać! Tomasz mógłby natychmiast zacząć myśleć o odpowiedzi!
+
+Ludzie, którzy to robią, zwykle próbują być uprzejmi nie przechodząc od razu do głównego tematu rozmowy, tak jak przez telefon—to dobrze! Ale jest %1$s rok, a czat nie jest telefonem. Większość ludzi pisze wolniej niż mówi. Także mimo twoich dobrych intencji sprawiasz, że **druga osoba musi czekać**, aż zadasz pytanie, co jest stratą czasu i koncentracji (oraz może być całkiem irytujące).
+
+Do tego zaliczają się:
+
+- "Hej, możemy porozmawiać?"
+- "Cześć Bruno - Masz chwilę?"
+- "Masz dla mnie sekundę?"
+- "ct?"
+- "ping"
+- itp.
+
+**Po prostu zadaj pytanie!** 😫
+"""
+example.bad.message1.timestamp = "2:15 PM"
+example.bad.message1.body = "siemka"
+example.bad.reply1.timestamp = "2:19 PM"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "2:20 PM"
+example.bad.message2.body = "o której gozdinie jest ta konferencja"
+example.bad.reply2.timestamp = "2:20 PM"
+example.bad.reply2.body = "o 4:15PM"
+example.good.title = "✅ Zamiast tego zrób to"
+example.good.body = """Jeśli czujesz, że powiedzenie „Cześć” i samo postawienie pytania może być chamskie, **możesz dodać kilka grzeczności, zanim przejdziesz do sedna.**
+
+Na przykład:
+
+- "hej, jak tam? wiadomo już, na kiedy to będzie?"
+- "Hej, mam nadzieję, że u Ciebie wszystko w porządku. Skończyłem projekt, ale mam jeden problem, mógłbyś zabrać ze szkoły pare kabli RJ45? :)"
+- "Hej, jeśli nie jesteś zajęty, mógłbyś zaktualizować te NFR-y?"
+- itp.
+
+To może wydawać się trywialne, jednak zadawanie pytania bez uprzedniej wiadomości powitalnej pozwala na prowadzenie **konwersacji asynchronicznej.** Jeśli druga osoba jest poza domem, a Ty wyjdziesz, zanim wróci, nadal może odpowiedzieć na Twoje pytanie. Nie musi gapić się na twoje "cześć" i zastanawiać się, co przegapiła.
+
+Kiedy tak robisz, każdy jest szcześliwy! 🎉
+"""
+example.good.message1.timestamp = "2:15 PM"
+example.good.message1.body = "Siemka! O której jest ta konferencja?"
+example.good.reply1.timestamp = "2:15 PM"
+example.good.reply1.body = "no siemka, o 4:40 PM"
+example.good.message2.timestamp = "2:15 PM"
+example.good.message2.body = "dzienks!"
+example.good.reply2.timestamp = "2:16 PM"
+example.good.reply2.body = "👌 nie ma problemu"
+footer.note = "To jest pół żartem, pół serio 👀, dlatego nie bądź [zły](https://www.youtube.com/watch?v=xzpndHtdl9A) na osobę, która wysłała ci ten link."
+footer.warning = "Podsumowując, jeśli otworzyłeś tę stronę z czyjegoś statusu, przygotuj się na bycie zignorowanym, jeśli napiszesz po prostu „cześć” czy coś w tym stylu."
+footer.thanks = "Kopia oparta o [nohello.net](https://nohello.net/en/). Awatary pochodzą z serialu *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Strona posiada otwarte źródło na [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Ta strona jest również dostępna w językach:"

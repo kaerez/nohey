@@ -1,0 +1,60 @@
+# CS translations for nohey.org
+
+header.subtitle = "prosím nezdravte jenom lidi v chatu"
+header.introduction = "Představte si že někomu zavoláte přes telefon, řeknete _ahoj!_ a poté zavěsíte... 🤦‍♀️"
+example.character.neutral.name = "Tim"
+example.character.neutral.avatar-description = "Timův avatar na Slacku"
+example.character.bad.name = "Keith"
+example.character.bad.avatar-description = "Keithův avatar na Slacku"
+example.character.good.name = "Dawn"
+example.character.good.avatar-description = "Dawnin avatar na Slacku"
+example.bad.title = "❌ Takhle to nedělejte"
+example.bad.body = """Uvědomte si že Keith mohl mít jeho odpověď o několik minut dříve, a nemusel zdržovat Tima. Tim vlastně mohl začít okamžitě přemýšlet o odpovědi!
+
+Lidé co tohle dělají se většinou snaží ukázat zdvořilost tím že nejdříve pozdraví, tak jako v realitě nebo na telefonu - a to je skvělé! Ale tohle je rok %1$s a chat není ani jednou z těchto věcí. Pro většinu lidí je psaní pomalejší než mluvení. Takže i přesto že vaše úmysly jsou dobré, **ve finále toho druhého člověka pouze nutíte čekat** než položíte svoji otázku, což je ztracená produktivita (a vlastně i otravné).
+
+To samé platí pro:
+
+- "Ahoj, jsi tu?"
+- "ahoj sofie - rychlá otázka."
+- "Máš vteřinku?"
+- "jsi tam?"
+- "@zmínka"
+- atd.
+
+**Prostě se zeptejte!** 😫
+"""
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "ahoj"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "kdy že blya ta věc?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "jo - v 15:30."
+example.good.title = "✅ Raději zkuste tohle"
+example.good.body = """Pokud si myslíte že je trochu nezdvořílé prostě říct "Ahoj" a položit otázku, **můžete na začátek vaši zprávy dát kolik pozdravů jen chcete.**
+
+Například:
+
+- "čau kámo, jak to jde? mimochodem, nevíš kdy má být ta věc?"
+- "Ahoj! Doufám že se daří. Hledám nejnovější balíček, až budeš mít vteřinku :)
+- "čau, pokud nemáš práci, mohl by jsi aktualizovat ty požadavky?"
+- atd.
+
+Může se to zdát triviální, ale položení vaší otázky před obdržením úvodní pozdravné odpovědi také umožňuje **asynchronní komunikaci**. Pokud je druhá strana pryč a vy odejdete, než se vrátí, může stále odpovědět na vaši otázku, místo aby jen zírala na „Ahoj“ a přemýšlela, o co přišla.
+
+Když provedeno správně - všichni jsou šťastní! 🎉
+"""
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "Ahoj! Kdy že byla ta věc?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "čau, 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "Super - uvidíme se tam!"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌 nz"
+footer.note = "Toto je jenom z části seriozní (z části 👀) takže se prosím [nenaštvěte](https://www.youtube.com/watch?v=xzpndHtdl9A) na člověka který vám tohle poslal."
+footer.warning = "Ale když uvidíte tuto stránku jako něčí status nebo bio, buďte připraveni že pokud pouze řeknete "Ahoj!", budete ignorováni."
+footer.thanks = "Inspirováno úžasným [nohello.net](https://nohello.net/en/). Profilové obrázky jsou z *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Dostupné na [GitHubu](https://github.com/kaerez/nohey)."
+footer.languages = "Tato stránka je dostupná v:"

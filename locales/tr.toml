@@ -1,0 +1,60 @@
+# TR translations for nohey.org
+
+header.subtitle = "lütfen mesajlaşırken sadece merhaba demeyin"
+header.introduction = "Birini telefonla aradığınızı, _merhaba!_ diyerek onu beklemeye aldığınızı hayal edin... 🤦‍♀️"
+example.character.neutral.name = "Tim"
+example.character.neutral.avatar-description = "Tim'in Slack fotoğrafı"
+example.character.bad.name = "Keith"
+example.character.bad.avatar-description = "Keith'in Slack fotoğrafı"
+example.character.good.name = "Dawn"
+example.character.good.avatar-description = "Dawn'ın Slack fotoğrafı"
+example.bad.title = "❌ Bunu yapmayın"
+example.bad.body = """Keith'in cevabını dakikalar önce alabileceğini ve Tim'i bekletmesi gerekmediğini unutmayın. Aslında Tim soruyu hemen düşünmeye başlayabilirdi!
+
+Bunu yapan insanlar genellikle, şahsen veya telefonda olduğu gibi, isteğe doğrudan atlamayarak kibar olmaya çalışırlar - ve bu harika! Ama yıl %1$s ve mesajlaşmak bunun yeri değil. Çoğu insan için yazmak, konuşmaktan çok daha yavaştır. Bu nedenle, en iyi niyetinize rağmen, **aslında sadece diğer kişiyi, üretkenliğinizi yitiren (ve biraz can sıkıcı) sorunuzu ifade etmeniz için bekletiyorsunuz**.
+
+Aynısı bunlar için de  geçerli:
+
+- "Merhaba, buralarda mısın?"
+- "Selam mert, bi sorum var."
+- "Bir dakikan var mı:"
+- "orda mısın?"
+- "..."
+- etc.
+
+**Sadece soruyu sorun işte** 😫
+"""
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "merhaba"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "...?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "o şey saat kaçtaydı ya?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "aa - 15:30 dostum"
+example.good.title = "✅ Şunu deneyin"
+example.good.body = """Sadece "Merhaba" deyip soruyu sormanın biraz kaba olduğunu düşünüyorsanız, **yine de mesajınıza uygun gördüğünüz kibarlıkla giriş yapabilirsiniz.**
+
+Örnek olarak:
+
+- "Selam dostum, naber? O şeyin ne zaman geleceği hakkında bir fikrin var mı?"
+- "Merhaba! Umarım iyisindir. Sunumun son sayfasındayım, vaktin olduğunda görüşelim :)"
+- "selam, meşgul değilsen şu NFR'leri güncelleyebilir misin?"
+- vs.
+
+Önemsiz görünebilir, ancak karşıdan gelen selam mesajını almadan önce sorunuzu sormak aynı zamanda **eşzamansız iletişime** de olanak tanır. Karşı taraf uzaktaysa ve onlar geri gelmeden konuşmadan ayrılırsanız, sadece bir "Merhaba"ya bakıp neyi kaçırdıklarını merak etmek yerine sorunuzu yanıtlayabilirler.
+
+Doğru şekilde yapıldığında - herkes mutlu olur! 🎉
+"""
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "Merhaba! O şey ne zamandı?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "merhaba, 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "Tşk - görüşmek üzere!"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌 öd"
+footer.note = "Bu biraz ciddi (biraz 👀) bu yüzden lütfen sizi buraya gönderen [kızgın](https://www.youtube.com/watch?v=xzpndHtdl9A) kişiye kızmayın."
+footer.warning = "Bu arada, bu sitelerin URL'sini birinin durumu/biyografisi olarak görürseniz, yalnızca "Merhaba!" derseniz yok sayılmaya hazır olun."
+footer.thanks = "Bu harika websitesinden esinlenilmiştir. [nohello.net](https://nohello.net/en/). Fotoğraflar da buradan alındı *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. Open-source on [GitHub](https://github.com/kaerez/nohey)."
+footer.languages = "Bu site şurada mevcuttur:"
