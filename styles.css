@@ -1,13 +1,13 @@
 :root {
-    --bg-color: #1a1a2e;
-    --text-color: #eee;
+    --bg-color: #ffffff;
+    --text-color: #1a1a2e;
     --accent-color: #e94560;
     --bubble-outgoing: #0084ff;
-    --bubble-incoming: #3a3a4a;
-    --chat-bg: #2a2a3e;
-    --good-color: #4ade80;
-    --bad-color: #f87171;
-    --link-color: #60a5fa;
+    --bubble-incoming: #e4e6eb;
+    --chat-bg: #f0f2f5;
+    --good-color: #16a34a;
+    --bad-color: #dc2626;
+    --link-color: #2563eb;
     --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Consolas', monospace;
 }
@@ -58,7 +58,8 @@ body.hey-mode {
 }
 
 .container {
-    max-width: 800px;
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
 }
@@ -90,14 +91,14 @@ header {
 
 .subtitle {
     font-size: 1.25rem;
-    opacity: 0.9;
+    opacity: 0.8;
     margin-bottom: 1rem;
 }
 
 .intro {
     font-size: 1.1rem;
-    opacity: 0.8;
-    max-width: 600px;
+    opacity: 0.7;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -110,7 +111,8 @@ header {
     margin-bottom: 3rem;
     padding: 1.5rem;
     border-radius: 12px;
-    background: rgba(255, 255, 255, 0.03);
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
 }
 
 .example h2 {
@@ -165,11 +167,13 @@ header {
 
 .message.outgoing .bubble {
     background: var(--bubble-outgoing);
+    color: #fff;
     border-radius: 18px 18px 4px 18px;
 }
 
 .message.incoming .bubble {
     background: var(--bubble-incoming);
+    color: var(--text-color);
     border-radius: 18px 18px 18px 4px;
 }
 
@@ -243,9 +247,9 @@ header {
 footer {
     margin-top: 3rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid #e5e7eb;
     font-size: 0.9rem;
-    opacity: 0.8;
+    opacity: 0.7;
     text-align: center;
 }
 
@@ -264,7 +268,7 @@ footer a:hover {
 
 .languages {
     font-size: 0.85rem;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 #language-list a {
@@ -276,7 +280,7 @@ footer a:hover {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .container {
         padding: 1.5rem 1rem;
     }
@@ -288,9 +292,23 @@ footer a:hover {
     .bubble {
         max-width: 85%;
     }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem 0.75rem;
+    }
 
     .avatar {
         width: 30px;
         height: 30px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
     }
 }
