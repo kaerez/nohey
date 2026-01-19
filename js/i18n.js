@@ -69,7 +69,7 @@
         const multilineRegex = /^([^=\n]+)=\s*"""([\s\S]*?)"""/gm;
         let match;
         while ((match = multilineRegex.exec(text)) !== null) {
-            result[match[1].trim()] = match[2].trim();
+            result[match[1].trim()] = match[2].trim().replace(/\\"/g, '"');
         }
         
         // Handle single-line strings
@@ -84,7 +84,7 @@
             if (simpleMatch) {
                 const key = simpleMatch[1].trim();
                 if (!result[key]) {
-                    result[key] = simpleMatch[2].replace(/\\n/g, '\n');
+                    result[key] = simpleMatch[2].replace(/\\n/g, '\n').replace(/\\"/g, '"');
                 }
             }
         }
