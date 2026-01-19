@@ -64,18 +64,28 @@
 
     function parseTOML(text) {
         const result = {};
+        
+        // Handle multiline strings first (""")
+        const multilineRegex = /^([^=\n]+)=\s*"""([\s\S]*?)"""/gm;
+        let match;
+        while ((match = multilineRegex.exec(text)) !== null) {
+            result[match[1].trim()] = match[2].trim();
+        }
+        
+        // Handle single-line strings
         const lines = text.split('\n');
         for (const line of lines) {
             const trimmed = line.trim();
             if (!trimmed || trimmed.startsWith('#')) continue;
-            const match = trimmed.match(/^([^=]+)=\s*"""([\s\S]*?)"""/);
-            if (match) {
-                result[match[1].trim()] = match[2];
-                continue;
-            }
+            // Skip if part of multiline or already processed
+            if (trimmed.includes('"""')) continue;
+            
             const simpleMatch = trimmed.match(/^([^=]+)=\s*"(.*)"/);
             if (simpleMatch) {
-                result[simpleMatch[1].trim()] = simpleMatch[2].replace(/\\n/g, '\n');
+                const key = simpleMatch[1].trim();
+                if (!result[key]) {
+                    result[key] = simpleMatch[2].replace(/\\n/g, '\n');
+                }
             }
         }
         return result;
