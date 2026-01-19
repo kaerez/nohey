@@ -18,7 +18,7 @@
         document.body.classList.add('hey-mode');
 
         // Optional: show why.gif as background
-        document.body.style.backgroundImage = 'url(/imgs/why.gif)';
+        document.body.style.backgroundImage = 'url(imgs/why.gif)';
         document.body.style.backgroundSize = 'cover';
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundAttachment = 'fixed';
