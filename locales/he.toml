@@ -1,0 +1,64 @@
+# Hebrew translations for nohey.org
+
+header.subtitle = "בבקשה לא להגיד סתם היי בצ׳אט"
+header.introduction = "נגיד שהתקשרת למישהו בטלפון, אמרת _היי!_ ואז העברת להמתנה… 🤦‍♀️"
+
+example.character.neutral.name = "אלי"
+example.character.neutral.avatar-description = "התמונה של אלי בסלאק"
+example.character.bad.name = "טל"
+example.character.bad.avatar-description = "התמונה של טל בסלאק"
+example.character.good.name = "יעל"
+example.character.good.avatar-description = "התמונה של יעל בסלאק"
+
+example.bad.title = "❌ לא לעשות ככה"
+example.bad.body = """נא לשים לב שטל יכול היה לקבל את התשובה הרבה לפני כן, ולא היה צריך להמתין לאלי. למעשה, אלי יכול היה לחשוב על השאלה שלו באותו רגע!
+
+אנשים שעושים את זה בדרך כלל מנסים להיות מנומסים על ידי כך שאינם קופצים ישירות לבקשה, כמו שעושים פנים מול פנים או בטלפון - וזה נהדר! אבל אנחנו ב־%1$s וצ׳אט אינו אף אחד מאלה. לרוב האנשים הקלדה היא אטית משמעותית מדיבור. לכן, למרות כל הכוונות הטובות **זה רק גורם לצד השני להמתין** לך לנסח את השאלה שלך, שזה אובדן יעילות (ודי מעצבן).
+
+כנ״ל לגבי:
+
+- „היי, יש שם מישהו?"
+- „היי יפעת - שאלה קצרה."
+- „יש לך שנייה?"
+- „שם?"
+- „אפשר סימן חיים"
+- וכו׳
+
+**עדיף פשוט לשאול!** 😫"""
+
+example.bad.message1.timestamp = "14:15"
+example.bad.message1.body = "היי"
+example.bad.reply1.timestamp = "14:19"
+example.bad.reply1.body = "…?"
+example.bad.message2.timestamp = "14:20"
+example.bad.message2.body = "מתי זה הבדר הזה?"
+example.bad.reply2.timestamp = "14:20"
+example.bad.reply2.body = "אה - 15:30"
+
+example.good.title = "✅ במקום, עדיף לנסות את זה"
+example.good.body = """אם לדעתך זה מעט בוטה להגיד „היי" ולשאול את השאלה, **אפשר להקדים את ההודעה שלך בכל מיני ריכוכים כראות עיניך.**
+
+למשל:
+
+- „היי, מה המצב? סתם שאלה, מתי זה קורה?"
+- „היוש! מקווה שהכול טוב אצלך. אני כרגע בחיפושים אחרי הקופסה, אם יש לך שנייה לעזור :)"
+- „היי, אם זה בסדר מצדך, אפשר לבקש ממך לעדכן את המצגות?"
+- וכו׳
+
+זה אולי נראה טריוויאלי, אבל הצגת השאלה שלך בטרם קבלת תגובה על הברכה הראשונית גם מאפשרת **תקשורת אסינכרונית**. אם הצד השני לא נמצא ועזבת לפני חזרת הצד השני, עדיין יש לו אפשרות לענות על השאלה שלך, במקום פשוט לבהות בהודעת „היי" ולתהות מה הוחמץ פה.
+
+כשעושים את זה נכון - כולם מרוצים! 🎉"""
+
+example.good.message1.timestamp = "14:15"
+example.good.message1.body = "היי! מתי זה קורה?"
+example.good.reply1.timestamp = "14:15"
+example.good.reply1.body = "היי, 15:30"
+example.good.message2.timestamp = "14:15"
+example.good.message2.body = "אחלה - נתראה!"
+example.good.reply2.timestamp = "14:16"
+example.good.reply2.body = "👌 סגור"
+
+footer.note = "זה חצי בצחוק (סוג של 👀) אז אין מה [להתעצבן](https://www.youtube.com/watch?v=xzpndHtdl9A) על מי ששלח או שלחה אותך לכאן."
+footer.warning = "עם זאת, אם ראית את את הכתובת של האתר הזה בסטטוס/ביו של מישהו, כנראה שיתעלמו מפנייה גנרית מצדך כמו „היי!""
+footer.thanks = "מבוסס על [nohello.net](https://nohello.net/en/) הנפלא. התמונות נלקחו מהסדרה *[The Office](https://en.wikipedia.org/wiki/The_Office_(British_TV_series))*. קוד פתוח ב־[GitHub](https://github.com/kaerez/nohey.org)."
+footer.languages = "האתר הזה זמין בשפות:"
