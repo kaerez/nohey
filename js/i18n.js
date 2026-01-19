@@ -26,13 +26,13 @@
 
     function getBasePath() {
         // Get base path for GitHub Pages subdirectory support
-        // e.g., /nohey.org/ or / for custom domain
+        // e.g., /nohey/ or / for custom domain
         const path = window.location.pathname;
         const segments = path.split('/').filter(Boolean);
         const lastSegment = segments[segments.length - 1];
         
+        // Only pop if it's a known language
         if (LANGUAGES[lastSegment]) {
-            // Current path ends with a language code
             segments.pop();
         }
         
@@ -45,11 +45,7 @@
         if (lastSegment && LANGUAGES[lastSegment]) {
             return lastSegment;
         }
-        // If path has a segment but it's not a valid language, fallback to English
-        if (lastSegment && lastSegment.length > 0) {
-            return DEFAULT_LANG;
-        }
-        return null;
+        return null; // Will trigger redirect
     }
 
     function getBrowserLang() {
@@ -183,15 +179,27 @@
     }
 
     async function init() {
-        const basePath = getBasePath();
         let lang = getLangFromPath();
         
-        // If no language in path, detect and redirect
+        // If no valid language in path, detect and redirect
         if (!lang) {
             lang = getBrowserLang();
+            
+            // Calculate base path, excluding any invalid language segment
+            const segments = window.location.pathname.split('/').filter(Boolean);
+            const lastSegment = segments[segments.length - 1];
+            
+            // If last segment exists but isn't a valid language, remove it
+            if (lastSegment && !LANGUAGES[lastSegment]) {
+                segments.pop();
+            }
+            
+            const basePath = '/' + (segments.length ? segments.join('/') + '/' : '');
             window.location.replace(basePath + lang);
             return;
         }
+
+        const basePath = getBasePath();
 
         // Set document direction and lang
         const langInfo = LANGUAGES[lang];
