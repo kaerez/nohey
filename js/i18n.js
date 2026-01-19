@@ -45,6 +45,10 @@
         if (lastSegment && LANGUAGES[lastSegment]) {
             return lastSegment;
         }
+        // If path has a segment but it's not a valid language, fallback to English
+        if (lastSegment && lastSegment.length > 0) {
+            return DEFAULT_LANG;
+        }
         return null;
     }
 
