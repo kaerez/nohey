@@ -179,23 +179,21 @@
     }
 
     async function init() {
+        const segments = window.location.pathname.split('/').filter(Boolean);
+        const lastSegment = segments[segments.length - 1];
+        
+        // If path has content that's not a valid language, redirect to /en
+        if (lastSegment && !LANGUAGES[lastSegment]) {
+            window.location.replace('/en');
+            return;
+        }
+        
         let lang = getLangFromPath();
         
-        // If no valid language in path, detect and redirect
+        // If no language in path (root), detect browser lang and redirect
         if (!lang) {
             lang = getBrowserLang();
-            
-            // Calculate base path, excluding any invalid language segment
-            const segments = window.location.pathname.split('/').filter(Boolean);
-            const lastSegment = segments[segments.length - 1];
-            
-            // If last segment exists but isn't a valid language, remove it
-            if (lastSegment && !LANGUAGES[lastSegment]) {
-                segments.pop();
-            }
-            
-            const basePath = '/' + (segments.length ? segments.join('/') + '/' : '');
-            window.location.replace(basePath + lang);
+            window.location.replace('/' + lang);
             return;
         }
 
