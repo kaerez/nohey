@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Immediately redirect invalid language paths
+        (function() {
+            var langs = ['en','he','de','es','fr','it','pt','pt-br','ru','uk','pl','cs','sv','tr','id','vi','zh-cn','fa'];
+            var path = location.pathname.split('/').filter(Boolean);
+            var last = path[path.length - 1];
+            // If there's a path segment that's not a valid language, redirect to /en
+            if (last && langs.indexOf(last) === -1) {
+                location.replace('/en');
+            }
+        })();
+    </script>
+    <script>
+        // Set base href for proper relative path resolution
+        (function() {
+            var path = location.pathname.split('/').filter(Boolean);
+            var host = location.hostname;
+            
+            // On GitHub Pages (*.github.io), first segment is repo name - keep it
+            // On custom domain, all segments are language paths
+            var isGitHubPages = host.endsWith('.github.io');
+            var startIndex = isGitHubPages ? 1 : 0;
+            
+            // Remove last segment if it exists after repo name (it's the language path)
+            if (path.length > startIndex) {
+                path.pop();
+            }
+            
+            var base = '/' + (path.length ? path.join('/') + '/' : '');
+            document.write('<base href="' + base + '">');
+        })();
+    </script>
+    <title>no hey!</title>
+    <meta name="description" content="please don't say just hey in chat">
+    <meta property="og:title" content="no hey!">
+    <meta property="og:description" content="please don't say just hey in chat">
+    <meta property="og:image" content="imgs/newmeta.png">
+    <meta property="og:url" content="https://nohey.org">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">no <span id="typed-word"></span><span class="cursor">|</span></h1>
+            <p class="subtitle" data-i18n="header.subtitle"></p>
+            <p class="intro" data-i18n="header.introduction"></p>
+        </header>
+
+        <main>
+            <section class="example bad">
+                <h2 data-i18n="example.bad.title"></h2>
+                <div class="chat">
+                    <div class="message outgoing">
+                        <img class="avatar" src="imgs/keith.png" data-i18n-alt="example.character.bad.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.bad.name"></span>
+                            <span class="text" data-i18n="example.bad.message1.body"></span>
+                            <span class="time" data-i18n="example.bad.message1.timestamp"></span>
+                        </div>
+                    </div>
+                    <div class="message incoming">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.neutral.name"></span>
+                            <span class="text" data-i18n="example.bad.reply1.body"></span>
+                            <span class="time" data-i18n="example.bad.reply1.timestamp"></span>
+                        </div>
+                    </div>
+                    <div class="message outgoing">
+                        <img class="avatar" src="imgs/keith.png" data-i18n-alt="example.character.bad.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.bad.name"></span>
+                            <span class="text" data-i18n="example.bad.message2.body"></span>
+                            <span class="time" data-i18n="example.bad.message2.timestamp"></span>
+                        </div>
+                    </div>
+                    <div class="message incoming">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.neutral.name"></span>
+                            <span class="text" data-i18n="example.bad.reply2.body"></span>
+                            <span class="time" data-i18n="example.bad.reply2.timestamp"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="explanation" data-i18n-html="example.bad.body"></div>
+            </section>
+
+            <section class="example good">
+                <h2 data-i18n="example.good.title"></h2>
+                <div class="chat">
+                    <div class="message outgoing">
+                        <img class="avatar" src="imgs/dawn.png" data-i18n-alt="example.character.good.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.good.name"></span>
+                            <span class="text" data-i18n="example.good.message1.body"></span>
+                            <span class="time" data-i18n="example.good.message1.timestamp"></span>
+                        </div>
+                    </div>
+                    <div class="message incoming">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.neutral.name"></span>
+                            <span class="text" data-i18n="example.good.reply1.body"></span>
+                            <span class="time" data-i18n="example.good.reply1.timestamp"></span>
+                        </div>
+                    </div>
+                    <div class="message outgoing">
+                        <img class="avatar" src="imgs/dawn.png" data-i18n-alt="example.character.good.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.good.name"></span>
+                            <span class="text" data-i18n="example.good.message2.body"></span>
+                            <span class="time" data-i18n="example.good.message2.timestamp"></span>
+                        </div>
+                    </div>
+                    <div class="message incoming">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <div class="bubble">
+                            <span class="name" data-i18n="example.character.neutral.name"></span>
+                            <span class="text" data-i18n="example.good.reply2.body"></span>
+                            <span class="time" data-i18n="example.good.reply2.timestamp"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="explanation" data-i18n-html="example.good.body"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="note" data-i18n-html="footer.note"></p>
+            <p class="warning" data-i18n-html="footer.warning"></p>
+            <p class="thanks" data-i18n-html="footer.thanks"></p>
+            <p class="languages">
+                <span data-i18n="footer.languages"></span>
+                <span id="language-list"></span>
+            </p>
+        </footer>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/nohey.js"></script>
+    <script src="js/hey.js"></script>
+</body>
+</html>
