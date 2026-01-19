@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Set base href for proper relative path resolution on GitHub Pages
+        (function() {
+            var path = location.pathname.split('/');
+            // Remove language segment if present
+            var langs = ['en','he','de','es','fr','it','pt','pt-br','ru','uk','pl','cs','sv','tr','id','vi','zh-cn','fa'];
+            if (langs.indexOf(path[path.length-1]) !== -1) path.pop();
+            var base = path.join('/');
+            if (!base.endsWith('/')) base += '/';
+            document.write('<base href="' + base + '">');
+        })();
+    </script>
     <title>no hey!</title>
     <meta name="description" content="please don't say just hey in chat">
     <meta property="og:title" content="no hey!">
     <meta property="og:description" content="please don't say just hey in chat">
-    <meta property="og:image" content="/imgs/newmeta.png">
+    <meta property="og:image" content="imgs/newmeta.png">
     <meta property="og:url" content="https://nohey.org">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" type="image/png" href="/imgs/favicon.png">
-    <link rel="apple-touch-icon" href="/imgs/apple-touch-icon.png">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/png" href="imgs/favicon.png">
+    <link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -27,7 +39,7 @@
                 <h2 data-i18n="example.bad.title"></h2>
                 <div class="chat">
                     <div class="message outgoing">
-                        <img class="avatar" src="/imgs/keith.png" data-i18n-alt="example.character.bad.avatar-description">
+                        <img class="avatar" src="imgs/keith.png" data-i18n-alt="example.character.bad.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.bad.name"></span>
                             <span class="text" data-i18n="example.bad.message1.body"></span>
@@ -35,7 +47,7 @@
                         </div>
                     </div>
                     <div class="message incoming">
-                        <img class="avatar" src="/imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.neutral.name"></span>
                             <span class="text" data-i18n="example.bad.reply1.body"></span>
@@ -43,7 +55,7 @@
                         </div>
                     </div>
                     <div class="message outgoing">
-                        <img class="avatar" src="/imgs/keith.png" data-i18n-alt="example.character.bad.avatar-description">
+                        <img class="avatar" src="imgs/keith.png" data-i18n-alt="example.character.bad.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.bad.name"></span>
                             <span class="text" data-i18n="example.bad.message2.body"></span>
@@ -51,7 +63,7 @@
                         </div>
                     </div>
                     <div class="message incoming">
-                        <img class="avatar" src="/imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.neutral.name"></span>
                             <span class="text" data-i18n="example.bad.reply2.body"></span>
@@ -66,7 +78,7 @@
                 <h2 data-i18n="example.good.title"></h2>
                 <div class="chat">
                     <div class="message outgoing">
-                        <img class="avatar" src="/imgs/dawn.png" data-i18n-alt="example.character.good.avatar-description">
+                        <img class="avatar" src="imgs/dawn.png" data-i18n-alt="example.character.good.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.good.name"></span>
                             <span class="text" data-i18n="example.good.message1.body"></span>
@@ -74,7 +86,7 @@
                         </div>
                     </div>
                     <div class="message incoming">
-                        <img class="avatar" src="/imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.neutral.name"></span>
                             <span class="text" data-i18n="example.good.reply1.body"></span>
@@ -82,7 +94,7 @@
                         </div>
                     </div>
                     <div class="message outgoing">
-                        <img class="avatar" src="/imgs/dawn.png" data-i18n-alt="example.character.good.avatar-description">
+                        <img class="avatar" src="imgs/dawn.png" data-i18n-alt="example.character.good.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.good.name"></span>
                             <span class="text" data-i18n="example.good.message2.body"></span>
@@ -90,7 +102,7 @@
                         </div>
                     </div>
                     <div class="message incoming">
-                        <img class="avatar" src="/imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
+                        <img class="avatar" src="imgs/tim.png" data-i18n-alt="example.character.neutral.avatar-description">
                         <div class="bubble">
                             <span class="name" data-i18n="example.character.neutral.name"></span>
                             <span class="text" data-i18n="example.good.reply2.body"></span>
@@ -113,8 +125,8 @@
         </footer>
     </div>
 
-    <script src="/js/i18n.js"></script>
-    <script src="/js/nohey.js"></script>
-    <script src="/js/hey.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/nohey.js"></script>
+    <script src="js/hey.js"></script>
 </body>
 </html>
