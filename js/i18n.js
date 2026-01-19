@@ -24,10 +24,26 @@
 
     const DEFAULT_LANG = 'en';
 
+    function getBasePath() {
+        // Get base path for GitHub Pages subdirectory support
+        // e.g., /nohey.org/ or / for custom domain
+        const path = window.location.pathname;
+        const segments = path.split('/').filter(Boolean);
+        const lastSegment = segments[segments.length - 1];
+        
+        if (LANGUAGES[lastSegment]) {
+            // Current path ends with a language code
+            segments.pop();
+        }
+        
+        return '/' + (segments.length ? segments.join('/') + '/' : '');
+    }
+
     function getLangFromPath() {
-        const path = window.location.pathname.replace(/^\/|\/$/g, '');
-        if (path && LANGUAGES[path]) {
-            return path;
+        const segments = window.location.pathname.split('/').filter(Boolean);
+        const lastSegment = segments[segments.length - 1];
+        if (lastSegment && LANGUAGES[lastSegment]) {
+            return lastSegment;
         }
         return null;
     }
@@ -101,14 +117,14 @@
         return html;
     }
 
-    function renderLanguageList(currentLang) {
+    function renderLanguageList(currentLang, basePath) {
         const container = document.getElementById('language-list');
         if (!container) return;
         const links = Object.entries(LANGUAGES).map(([code, info]) => {
             if (code === currentLang) {
                 return `<strong>${info.name}</strong>`;
             }
-            return `<a href="/${code}">${info.name}</a>`;
+            return `<a href="${basePath}${code}">${info.name}</a>`;
         });
         container.innerHTML = links.join(' · ');
     }
@@ -137,28 +153,29 @@
         });
     }
 
-    async function loadLanguage(lang) {
+    async function loadLanguage(lang, basePath = '/') {
         try {
-            const response = await fetch(`/locales/${lang}.toml`);
+            const response = await fetch(`${basePath}locales/${lang}.toml`);
             if (!response.ok) throw new Error('Failed to load');
             const text = await response.text();
             return parseTOML(text);
         } catch (e) {
             console.error(`Failed to load ${lang}, falling back to ${DEFAULT_LANG}`);
             if (lang !== DEFAULT_LANG) {
-                return loadLanguage(DEFAULT_LANG);
+                return loadLanguage(DEFAULT_LANG, basePath);
             }
             return {};
         }
     }
 
     async function init() {
+        const basePath = getBasePath();
         let lang = getLangFromPath();
         
         // If no language in path, detect and redirect
         if (!lang) {
             lang = getBrowserLang();
-            window.location.replace('/' + lang);
+            window.location.replace(basePath + lang);
             return;
         }
 
@@ -168,9 +185,9 @@
         document.documentElement.dir = langInfo.rtl ? 'rtl' : 'ltr';
 
         // Load and apply translations
-        const translations = await loadLanguage(lang);
+        const translations = await loadLanguage(lang, basePath);
         applyTranslations(translations);
-        renderLanguageList(lang);
+        renderLanguageList(lang, basePath);
 
         // Initialize typing animation
         if (typeof initTyping === 'function') {
